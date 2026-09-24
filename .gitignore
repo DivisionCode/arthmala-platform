@@ -11,6 +11,9 @@ dist/
 dist-ssr/
 build/
 
+# Vercel CLI project link
+.vercel/
+
 # Logs
 *.log
 npm-debug.log*

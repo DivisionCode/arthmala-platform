@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/DivisionCode/arthmala-platform/blob/main/SECURITY.md
+    about: Please report security issues privately by email, not in a public issue. See SECURITY.md.
+  - name: General enquiries and commissions
+    url: https://arthmala.vercel.app
+    about: For orders, commissions and other questions about Arthmala, use the website.

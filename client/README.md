@@ -1,5 +1,15 @@
-# Vue 3 + Vite
+# arthmala-client
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+The Arthmala storefront: a Vue 3 single-page app built with Vite and served by
+Vercel as static files.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+This package is part of the `arthmala-platform` monorepo. Setup, scripts,
+environment variables, architecture and deployment are documented in the
+[root README](../README.md).
+
+```
+npm ci
+npm run dev       # local development server
+npm run build     # production build into dist/
+npm run preview   # serve the production build locally
+```

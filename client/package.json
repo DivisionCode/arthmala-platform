@@ -1,7 +1,19 @@
 {
-  "name": "client",
+  "name": "arthmala-client",
+  "version": "1.0.0",
+  "description": "Arthmala web client: Vue 3 single-page application built with Vite.",
   "private": true,
-  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "author": "Sushraj Ventures <sushrajventures@gmail.com>",
+  "homepage": "https://arthmala.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivisionCode/arthmala-platform.git",
+    "directory": "client"
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,10 +32,5 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.3",
     "vite": "^7.0.4"
-  },
-  "description": "This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
-  "main": "postcss.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
